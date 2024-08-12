@@ -1,7 +1,7 @@
 {
   "husky": {
     "hooks": {
-      "pre-commit": "git pull --recurse-submodules"
+      "pre-commit": "git submodule update --init --force --remote"
     }
   },
   "dependencies": {
