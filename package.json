@@ -1,0 +1,10 @@
+{
+  "husky": {
+    "hooks": {
+      "pre-commit": "git submodule update"
+    }
+  },
+  "dependencies": {
+    "husky": "^9.1.4"
+  }
+}

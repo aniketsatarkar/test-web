@@ -1,0 +1,6 @@
+[submodule "common"]
+    path = /
+    url = https://github.com/aniketsatarkar/test-common
+[submodule "test-common"]
+	path = test-common
+	url = https://github.com/aniketsatarkar/test-common
