@@ -1,13 +1,8 @@
 {
-  "husky": {
-    "hooks": {
-      "pre-commit": "git submodule update --init --force --remote"
-    }
+  "scripts": {
+    "prepare": "husky"
   },
   "dependencies": {
     "husky": "^9.1.4"
-  },
-  "scripts": {
-    "prepare": "husky"
   }
 }
