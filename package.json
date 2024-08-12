@@ -1,7 +1,9 @@
 {
   "husky": {
     "hooks": {
-      "pre-commit": "git submodule update"
+      "pre-commit": "echo pre-commit start",
+      "pre-commit": "git submodule update",
+      "pre-commit": "echo pre-commit end"
     }
   },
   "dependencies": {
